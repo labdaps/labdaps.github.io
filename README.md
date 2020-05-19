@@ -1,11 +1,12 @@
-# Allan Lab Website
+# LabPageFiles
+Arquivos Jekyll para o Site do LABDAPS
 
-This is the website of our academic research group at Leiden University.
+# Como Instalar o Jekyll
+- Instale o Ruby seguindo o site: https://jekyllrb.com/docs/installation/windows/
+- Instale o Jekyll no prompt de comando (Iniciar -> cmd) digitando "gem install jekyll bundler"
 
-This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to make it simple yet adaptable, so that it is easy for you to use it as a template. Plese feel free to copy and modify for your own purposes.  You don't have to link to us or mention us (but of course we appreciate it).
-
-Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
-
-
-Copyright Allan Lab. Code released under the MIT License.
-
+# Alterar Conteúdo do site
+- Clonar os Repositórios LabPageFiles e labdaps.github.io
+- Alterar o conteúdo nas pastas images, _pages e _data
+- Rodar o arquivo jekyllrun.bat alterando o caminho para representar o endereço local. Este bat irá rodar o Jekyll e salvar a página em html no Clone local da pasta labdaps.github.io
+- Fazer commit e push dos arquivos da pasta labdaps.github.io
